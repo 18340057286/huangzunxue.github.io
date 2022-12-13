@@ -368,7 +368,7 @@ navbar:
     # - { key: "关于", link: "/about/", icon: "iconfont icon-user-fill" }
     #- { key: "友链", link: "/links/", icon: "iconfont icon-link-fill" }
     - { key: "音乐", link: "/music/", icon: "iconfont icon-music" }
-    - { key: "相册", link: "/photo/", icon: "iconfont icon-images" }
+    - { key: "相册", link: "/photos/", icon: "iconfont icon-images" }
 
 # 搜索功能，基于 hexo-generator-search 插件，若已安装其他搜索插件请关闭此功能，以避免生成多余的索引文件
 # Search feature, based on hexo-generator-search. If you have installed other search plugins, please disable this feature to avoid generating redundant index files
@@ -1126,3 +1126,6 @@ static_prefix:
   twikoo: https://lib.baomitu.com/twikoo/1.5.11/
 
   hint: https://lib.baomitu.com/hint.css/2.7.0/
+
+
+
