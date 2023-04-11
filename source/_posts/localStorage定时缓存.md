@@ -3,7 +3,7 @@ title: localStorage定时缓存
 date: 2023-03-20 09:06:33
 tags: js
 ---
-#1.基本方法
+# 1.基本方法
 ```
 var MyLocalStorage = {
     Cache: {
@@ -87,7 +87,7 @@ getHotList();
 ```
 原文链接：[https://www.bbsmax.com/A/kjdwqOp2JN/](https://www.bbsmax.com/A/kjdwqOp2JN/)
 
-#2.简单运用
+# 2.简单运用
 ```
 function dyajax{
     var url = "ajax请求地址"

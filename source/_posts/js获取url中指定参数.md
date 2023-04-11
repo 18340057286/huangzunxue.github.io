@@ -4,7 +4,7 @@ date: 2023-03-03 09:03:53
 tags: js
 ---
 
-#1.js中获取路径基本方法
+# 1.js中获取路径基本方法
 ```
 例如路径为:huangzunxue998.top/2023/3/3/index.html?wd=dada
 1. Window Location href  返回当前页面完整路径
@@ -23,7 +23,7 @@ window.location.replace(url) ： 通过加载 URL 指定的文档来替换当前
   结果为：?wd=dada
 ```
 
-#2.获取路径中?之后的指定内容：
+# 2.获取路径中?之后的指定内容：
 ```
 如：https://www.baidu.com/s?wd=大大
 获取wd的值
@@ -41,7 +41,7 @@ str_wd = str.getUrlParam('wd')
 结果为：大大
 ```
 
-#3.获取路径中的某个值
+# 3.获取路径中的某个值
 ```
 例如路径为：https://huangzunxue998.top/tags/js001/index.html
 var getUrlUrlname = function (name) {

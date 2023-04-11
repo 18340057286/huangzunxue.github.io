@@ -3,7 +3,7 @@ title: 无缝滚动，兼容ie7
 date: 2022-10-28 11:23:53
 tags: js
 ---
-#无缝滚动，兼容ie7
+# 无缝滚动，兼容ie7
 ```
 <!DOCTYPE html>
 <html lang="en">

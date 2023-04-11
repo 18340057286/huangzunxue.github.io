@@ -3,14 +3,14 @@ title: replace替换以及配合正则表达式实现部分功能
 date: 2023-02-08 17:26:25
 tags: js
 ---
-#1.简单替换，只能执行一次
+# 1.简单替换，只能执行一次
 ```
 var str = "税务政策类资讯可直接拨打税务资讯电话12366"
 #要求是将资讯错别字替换为咨询
 var new_str=str.replace("资讯","咨询"); 
 alert(new_str);
 ```
-#2.多次替换（全局替换）
+# 2.多次替换（全局替换）
 ```
 var str = "税务政策类资讯可直接拨打税务资讯电话12366"
 var new_str=str.replace(/资讯/g,"咨询"); 
@@ -18,7 +18,7 @@ var new_str=str.replace(/资讯/g,"咨询");
 var str_reg=new RegExp("资讯","g");
 var new_str2=str.replace(str_reg,"咨询"); 
 ```
-#3.配合检索查询使需要检索的内容高亮展示
+# 3.配合检索查询使需要检索的内容高亮展示
 ```
 var str="税务政策类咨询可直接拨打税务咨询电话12366";
 var str_reg = new RegExp("咨询","g");
@@ -30,7 +30,7 @@ var title_reg = new RegExp("("+title+")","g");
 var new_str2=str.replace(title_reg,"<font color=red>$1</font>");
 document.write(new_str2);
 ```
-#4.扩展 
+# 4.扩展 
 ```
 #在node.js对文本文档进行读取写入时可能会遇到要获取html中script中的变量,首先需要在node.js引入cheerio依赖，
 它可以使我们使用jquery的方法进行操作，如获取指定节点内容
@@ -50,7 +50,7 @@ var text_name = script_text.name
 #经过多次replace得到所需数据
 ```
 
-#5.去除空格
+# 5.去除空格
 ```
 去除字符串内所有的空格：str = str.replace(/\s*/g,"");
 去除字符串内两头的空格：str = str.replace(/^\s*|\s*$/g,"");

@@ -1076,7 +1076,7 @@ talking:
   artitalk:
     appId: R8A5Hson11mg4exh9hBKa2Wj-gzGzoHsz
     appKey: oeU2ayEBGgQjHaoFc0av10IN
-    serverURL: https://r8a5hson.lc-cn-n1-shared.com
+    serverURL: https://server.huangzunxue998.top
     atComment: true # 是否开启说说评论
     cssurl: https://cdn.staticaly.com/gh/spaceskynet/Artitalk/master/dist/css/artitalk.min.css # 魔改版本的 css
 

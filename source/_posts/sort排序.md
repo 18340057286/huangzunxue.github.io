@@ -3,12 +3,12 @@ title: sort排序
 date: 2023-01-16 11:00:03
 tags: js
 ---
-#1.按一定规则，序号或者时间
+# 1.按一定规则，序号或者时间
 ```
 var data = data
 data.sort(function (a, b) { return b.time - a.time });
 ```
-#2.按指定方式进行排序
+# 2.按指定方式进行排序
 ```
 var order = ['天气','日期', '地址']
 var data = data
